@@ -1,0 +1,21 @@
+.download-container{
+    display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            margin: 0;
+}
+.download-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+        font-size: x-large;
+        width: 80vw;
+        background-color: rgb(233, 50, 50);
+        border-radius: 15px;
+        color: white;
+        height: 15vh;
+
+}

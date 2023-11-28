@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(230, 134, 134);
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    background-color: rgb(233, 50, 50);
+    color: blanchedalmond;
+    text-align: center;
+}
+.footerr{
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.img-logo{
+    height: 150px;
+    width: auto;
+    
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.appdesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appdesc p{
+    display: flex;
+    max-width: 80%;
+    justify-content: center;
+    text-align: center;
+}
+.download-b{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.specs{
+    display: flex;
+    flex-direction: column;
+    font-size: 70%;
+    align-content: center;
+}
+.download-button{
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    border: none;
+    background-color: rgb(233, 50, 50);
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.download-button a{
+    color: white;
+}
+.download-button a:hover{
+    color: rgb(233, 50, 50);
+    background-color: white;
+}
+.download-button:hover{
+    background-color: white;
+    color: rgb(233, 50, 50);
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.line{
+    width: 90vw;
+    height: 2px;
+    color: black;
+    border: thin solid;
+    background-color: black;
+}
+.line-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.screenshots-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 150%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    color: blanchedalmond;
+    background-color: rgb(233, 50, 50);
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.banner-dice{
+    height: 60px;
+    width: auto;
+}
